@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        /* Navigation links at the bottom */
+        ul:last-of-type {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #ddd;
+        }
+
+        ul:last-of-type li {
+            display: inline-block;
+            margin-right: 1rem;
+        }
+
+        ul:last-of-type li:before {
+            content: none;
+        }
+
+        /* Calendar link styling */
+        .calendar-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            margin: 1rem 0;
+            transition: background-color 0.2s ease;
+        }
+
+        .calendar-link:hover {
+            background-color: #2980b9;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unoffice Hours</h1>
+    <p>No agenda, no plan, and no need to email first. Anyone is welcomed, whether we're old friends or have yet to meet. Feel free to bring your favourite beverage and we'll chat about, well, anything. Some ideas are:</p>
+    <ul>
+        <li>A general catch-up - I'd love to hear about what you're working on</li>
+        <li>Chatting about anything technology, history, philosophy, health, etc...</li>
+        <li>Discussing things you find interesting</li>
+        <li>Talking about training for distance running and calisthenics</li>
+        <li>Or something you think we can work together.</li>
+    </ul>
+    <p>You can book the half hour <a href="https://calendly.com/drzhouq/30min" class="calendar-link">Un Office Hour</a></p>
+    <ul>
+        <li><a href="https://unofficehours.com/prev.html">Previous site</a></li>
+        <li><a href="https://unofficehours.com/next.html">Next site</a></li>
+        <li><a href="https://unofficehours.com/random.html">Random</a></li>
+        <li><a href="https://unofficehours.com">List all sites</a></li>
+        <li><a href="https://unofficehours.com/join.html">Join the ring</a></li>
+    </ul>
+</body>
+</html>
